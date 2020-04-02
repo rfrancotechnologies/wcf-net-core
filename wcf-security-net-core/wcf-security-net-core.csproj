@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>1.0.0</Version>
+    <PackageId>Com.RFranco.Wcf.WSSecurity</PackageId>
+    <Title>Wcf.WSSecurity</Title>
+    <Description>Library to using ws security headers in dotnet core.</Description>
+    <Authors>Ruben Martinez;Javier Solana;R.Franco Techonologies</Authors>
+    <Copyright>Copyright R.Franco Techonologies 2020</Copyright>
+    <PackageTags>WCF WS-Security Headers .Net Core dotnet</PackageTags>
+    <PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/rfrancotechnologies/wcf-net-core</PackageProjectUrl>
+    <IncludeSource>false</IncludeSource>
+    <PackageReleaseNotes>
+      WCF support in dotnet core. First version.
+    </PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ServiceModel.Duplex" Version="4.4.*" />
+    <PackageReference Include="System.ServiceModel.Http" Version="4.4.*" />
+    <PackageReference Include="System.ServiceModel.NetTcp" Version="4.4.*" />
+    <PackageReference Include="System.ServiceModel.Security" Version="4.4.*" />        
+  </ItemGroup>
+
+</Project>

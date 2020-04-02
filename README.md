@@ -1,2 +1,3 @@
-# ws-security-net-core
-WS Security in .NetCore (WebService and WCF support in dotnet core)
+# wcf-net-core
+
+WS Security / Diagnostic libs in .NetCore (WCF support in dotnet core)
