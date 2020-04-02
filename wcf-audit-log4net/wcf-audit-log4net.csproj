@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <PackageId>Com.RFranco.Wcf.Audit.Log4Net</PackageId>
     <Title>WcfAuditLog4net</Title>
     <Description>Library to audit / logging wcf messages in dotnet core projects with log4net.</Description>
@@ -13,7 +13,7 @@
     <PackageProjectUrl>https://github.com/rfrancotechnologies/wcf-net-core</PackageProjectUrl>
     <IncludeSource>false</IncludeSource>
     <PackageReleaseNotes>
-      First Version.
+      Added to namespace Com.RFranco.Wcf.Audit.Log4Net.
     </PackageReleaseNotes>
   </PropertyGroup>
 
